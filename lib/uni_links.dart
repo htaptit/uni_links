@@ -20,7 +20,7 @@ Future<String> getInitialLink() async {
 }
 
 /// Returns a [Future], which completes to one of the following:
-///
+///   * (ONLY iOS)
 ///   * set latestLink (possibly null)
 ///   * a [PlatformException], if the invocation failed in the platform plugin.
 Future<void> setLatestLink(String value) async {
